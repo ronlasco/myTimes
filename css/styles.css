@@ -1,0 +1,10 @@
+header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+}
+
+header h3 {
+	color: MediumAquamarine;
+}
