@@ -6,10 +6,9 @@ header {
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid black;
-  
   /*position: fixed;
-  z-index: 1;
-}*/
+  z-index: 1;*/
+}
 
 header ul {
 	list-style: none;
