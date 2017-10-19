@@ -6,9 +6,13 @@ header {
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid black;
-  /*position: fixed;
-  z-index: 1;*/
+  width: 100%;
+  position: fixed;
+  z-index: 5;
+  background-color: white;
 }
+
+
 
 header ul {
 	list-style: none;
