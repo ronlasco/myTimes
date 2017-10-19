@@ -3,11 +3,39 @@ header {
   font-size: 14px;
   font-weight: bold;
   display: flex;
-}
-header nav ul li {
-	display: inline;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  
+  /*position: fixed;
+  z-index: 1;
+}*/
+
+header ul {
+	list-style: none;
+	padding-right: 40px;
 }
 
-header h3 {
+header ul li {
+	display: inline-block;
+	padding: 20px 10px;
+}
+
+/*header ul li:last-child {
+    padding-right: 40px;
+    color: red;
+}*/
+
+.logo {
+	display: flex;
+	align-items: center;
+	padding-left: 30px;
+}
+div.logo span {
 	color: MediumAquamarine;
+	padding-left: 10px;
+}
+
+a:link {
+	color: black;
 }
