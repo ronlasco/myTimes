@@ -4,6 +4,9 @@ header {
   font-weight: bold;
   display: flex;
 }
+header nav ul li {
+	display: inline;
+}
 
 header h3 {
 	color: MediumAquamarine;
