@@ -32,6 +32,21 @@ main {
 	padding-top: 125px;
 }
 
+.headline {
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+}
+
+.story2 {
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
+}
+
+.image {
+	font-family: Georgia;
+	  font-weight: bold;
+	  font-size: 30px;
+	  color: white;
+
+}
 .column {
 	border: 1px solid red;
 	display: flex;
@@ -42,11 +57,11 @@ main {
 	width: 630px;
 }
 
-.column-medium {
+.column.medium {
 	width: 300px;
 }
 
-.column-small {
+.column.small {
 	width: 240px;
 }
 
