@@ -23,52 +23,6 @@ header ul li {
 	padding: 20px 10px;
 }
 
-body {
-	display: flex;
-}
-
-main {
-	display: flex;
-	padding-top: 125px;
-}
-
-.headline {
-	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
-}
-
-.story2 {
-	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
-}
-
-.image {
-	font-family: Georgia;
-	  font-weight: bold;
-	  font-size: 30px;
-	  color: white;
-
-}
-.column {
-	border: 1px solid red;
-	display: flex;
-	flex-direction: column;
-}
-
-.column.large {
-	width: 630px;
-}
-
-.column.medium {
-	width: 300px;
-}
-
-.column.small {
-	width: 240px;
-}
-
-p  {
-	border: 1px solid red;
-}
-
 .logo {
 	display: flex;
 	align-items: center;
@@ -81,4 +35,75 @@ div.logo span {
 
 a:link {
 	color: black;
+}
+
+body {
+	display: block;
+}
+
+main {
+	display: flex;
+	padding-top: 125px;
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.imagetext {
+	font-family: Georgia;
+	font-weight: bold;
+	font-size: 30px;
+	color: white;
+}
+
+.imgheadline {
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+	font-size: 40px;
+}
+
+.imgstory2 {
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
+}
+
+.imgstory3 {
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
+}
+
+.imgstory4	{
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
+}
+
+
+.column {
+	border: 1px solid red;
+	display: flex;
+	flex-direction: column;
+}
+
+.bottomarticles {
+	display: flex;
+	flex-direction: row;
+}
+
+.column.large {
+	width: 630px;
+
+}
+
+.column.medium {
+	width: 300px;
+}
+
+.column.small {
+	width: 240px;
+}
+
+p  {
+	border: 1px solid green;
+	font-family: Georgia;
+  	font-size: 17px;
+  	color: black;
+}
+
+footer {
+	background-color: MediumAquamarine;
 }
