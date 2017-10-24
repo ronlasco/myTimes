@@ -55,9 +55,10 @@ main {
 	color: white;
 }
 
+
 .imgheadline {
 	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
-	font-size: 40px;
+	
 }
 
 .imgstory2 {
@@ -95,6 +96,7 @@ main {
 .column.large {
 	width: 630px;
 
+
 }
 
 .column.medium {
@@ -128,7 +130,9 @@ main {
 
 }
 
-p  {
+/*Formatting all column paragraphs*/
+
+div.column p {
 	font-family: Georgia;
   	font-size: 17px;
   	color: black;
@@ -140,10 +144,18 @@ footer {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-direction: column;
 	background-color: MediumAquamarine;
 	margin: auto;
   	font-family: Verdana;
   	font-size: 12px;
+  	height: 325px;
+}
+
+.footerlogo {
+	display: flex;
+	align-items: center;
+
 }
 
 footer span {
@@ -151,12 +163,13 @@ footer span {
   	font-size: 16px;
   	font-weight: bold;
   	color: white;
+  	border-right: 2px solid white;
+  	padding-right: 50px;
 
 }
 
 footer ul {
 	list-style: none;
-	padding-right: 40px;
 }
 
 footer ul li {
