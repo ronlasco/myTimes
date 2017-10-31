@@ -23,6 +23,10 @@ header ul li {
 	padding: 20px 10px;
 }
 
+a:visited { 
+    color: black;
+}
+
 .logo {
 	display: flex;
 	align-items: center;
@@ -53,7 +57,10 @@ main {
 	font-weight: bold;
 	font-size: 30px;
 	color: white;
-	text-align: left;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	
 }
 
